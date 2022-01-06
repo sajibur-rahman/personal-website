@@ -1,3 +1,52 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
 h1 {
-  color: red;
+  font-size: 20px;
+}
+p {
+  margin: 33px 0;
+  color: rgb(82, 75, 75);
+}
+
+.flexiable_container {
+  display: flex;
+  margin-left: 130px;
+  margin-top: 40px;
+}
+
+.half_of_container {
+  width: 50%;
+}
+.half_of_container img {
+  width: 60%;
+}
+
+.common_color {
+  color: orange;
+}
+
+.link_button {
+  color: white;
+  text-decoration: none;
+  padding: 10px 40px;
+  background-color: tomato;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* personal section  */
+
+.personal_text_area {
+  padding-top: 85px;
+  padding-right: 120px;
+}
+
+.text_header {
+  border-left: 3px solid tomato;
+  padding-left: 15px;
 }
