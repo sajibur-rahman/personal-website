@@ -99,9 +99,9 @@ p {
 
 /* commitment section */
 
-/* .commitment_section {
-  display: flex;
-} */
+.commitment_section {
+  padding-top: 40px;
+}
 .commitment_item img {
   width: 80%;
 }
@@ -125,4 +125,38 @@ p {
 }
 .comunity_item img {
   width: 85%;
+}
+
+/* app section */
+
+.app_section {
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+.app_header {
+  font-size: 40px;
+  text-align: center;
+}
+
+.app_feature {
+  padding-top: 60px;
+}
+
+/* footer section */
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: #0b0d17;
+  padding: 20px 0px;
+}
+.footer_header {
+  font-size: 25px;
+  font-family: "Luxurious Roman", cursive;
+}
+.mission_year {
+  color: #ff5959;
+}
+.mission_text {
+  color: white;
 }
